@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="product">
+    <meta name="description" content="smth about this product">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jug Ru</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+  </head>
+  <body class="page">
+    <header class="header">
+      <a href="#">
+        <img src="./images/jug_logo-2.svg" alt="jug ru group" width="126" height="41">
+      </a>
+    </header>
+    <img class="lines-image" src="./images/lines-2.svg" alt="анимация">
+    <main class="main">
+      <h1 class="main__title main-title">Конференции, <br> которые нужны</h1>
+      <p class="main__text main-text">Мы, JUG Ru Group, делаем крупнейшие конференции <br> для программистов и сочувствующих. <br>
+        С нас — крутая программа, топовые спикеры, <br> технические доклады без воды. <br>
+        С вас — готовность смотреть и общаться.</p>
+      <div class="main__button-area button-area">
+        <div class="button-area__hand-up hand-up">
+          <button class="button-area__button button button_yellow">Купить билет </button>
+        </div>
+        <div class="button-area__face-palm face-palm">
+          <button class="button-area__button button button_black">Послать в жопу</button>
+        </div>
+      </div>
+    </main>
+    <div class="question">
+      <div class="question__block question__block_light question-block block_light">
+        <h2 class="question-block__title block-title block-title_dark">Я хочу знать, когда <br> будет офлайн</h2>
+        <div class="question-block__content">
+          <form class="question-block__form form" action="#">
+            <input class="form__input-email input-email" type="email" placeholder="Укажите email">
+            <button class="form__button form-button" type="submit">Подписаться</button>
+          </form>
+          <p class="question-block__warning">Нажимая на кнопку вы соглашаетесь <br> на обработку
+            <a href="#">персональных данных</a></p>
+        </div>
+        <div class="question-block__thanks-subscribe closed">
+          <p>Спасибо, что подписались на нашу рассылку!</p>
+        </div>
+      </div>
+      <div class="question__block question__block_dark question-block block_dark">
+        <h2 class="question-block__title block-title block-title_light">Идите в жопу!</h2>
+        <ul class="question-block__buttons-list buttons-list">
+          <li class="buttons-list__item">
+            <input class="buttons-list__button-vote button_ghost" type="submit" value="Вы свои цены видели?">
+          </li>
+          <li class="buttons-list__item">
+            <input class="buttons-list__button-vote button_ghost" type="submit" value="Доклады ни о чем">
+          </li>
+          <li class="buttons-list__item">
+            <input class="buttons-list__button-vote button_ghost" type="submit" value="У вас там всё хорошо?">
+          </li>
+          <li class="buttons-list__item">
+            <input class="buttons-list__button-vote button_ghost" type="submit" value="Денег нет, но вы держитесь">
+          </li>
+        </ul>
+        <div class="question-block__thanks-answer closed">
+          <p>Спасибо, что поделились!</p>
+        </div>
+      </div>
+      <a class="question__link question-link" rel="stylesheet" href="#">Я кликнул просто посмотреть</a>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
